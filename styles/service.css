@@ -1,0 +1,117 @@
+.service__icon{
+  font-size: 4.3rem;
+  margin: 12%;
+  color: #fff;
+}
+
+.bz-content {
+  box-sizing: content-box;
+}
+.bz-content *,
+.bz-content *::before,
+.bz-content *::after {
+  box-sizing: inherit;
+}
+
+.bz-border {
+  box-sizing: border-box;
+}
+.bz-border *,
+.bz-border *::before,
+.bz-border *::after {
+  box-sizing: inherit;
+}
+.service-container{
+  max-width: 1190px;
+  padding: 90px 102px 95px 102px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.service{
+  max-width: 13%;
+}
+.service{
+  margin: 0 auto;
+}
+.service__block{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #BFE142;
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.service__img{
+  margin: auto;
+}
+.service__text{
+  font-size: 1rem;
+}
+@keyframes emergence{
+  0% {
+    transform: translateY(-400px) scale(.7);
+    opacity: 0;
+  }
+
+  80% {
+    transform: translateY(0px) scale(.7);
+    opacity: .7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.service:first-child { 
+ animation: emergence 1s both;  
+}
+.service:nth-child(2){
+  animation: emergence 1s both ;
+  animation-delay: 1s;
+}
+.service:nth-child(3){
+  animation: emergence 1s both;
+  animation-delay: 2s;
+}
+.service:nth-child(4){
+  animation: emergence 1s both;
+  animation-delay: 3s;
+}
+.service:nth-child(5){
+  animation: emergence 1s both;
+  animation-delay: 4s;
+}
+
+@keyframes flip {
+  0% {transform: rotateY(0deg);}
+  10%{transform: rotateY(180deg);}
+  20%{transform: rotateY(0);}
+  40%{transform: rotateY(0);}
+  60%{transform: rotateY(0);}
+  80%{transform: rotateY(0);}
+  100% {transform: rotateY(0);}
+} 
+.service__block--animation-1{
+  animation: flip 10s infinite linear;
+  animation-delay: 5s;
+}
+.service__block--animation-2{
+  animation: flip 10s infinite linear;
+  animation-delay: 7s;
+}
+.service__block--animation-3{
+  animation: flip 10s infinite linear;
+  animation-delay: 9s;
+}
+.service__block--animation-4{
+  animation: flip 10s infinite linear;
+  animation-delay: 11s;
+}
+.service__block--animation-5{
+  animation: flip 10s infinite linear;
+  animation-delay: 13s;
+}

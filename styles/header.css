@@ -1,0 +1,155 @@
+.logo{
+  z-index: 10;
+}
+.drop__btn{
+  display: none;
+}
+.list--style-none{
+  list-style: none;
+  margin-top: 0;
+}
+.drop__btn{
+  display: none;
+}
+.nav-list{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style: none;
+  margin-top: 0;
+  padding-inline-start: 0;
+}
+.nav-list__item{
+  margin: 0 3%;
+}
+.nav-list__link{
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  transition: color 1s;
+  transition-delay: .5s;
+}
+
+.nav-list__link:hover, .nav-list__link:focus, .contacts__link:hover, .contacts__link:focus{
+  color:#FF8C00;
+  transition:  1s ease-out;
+}
+.nav-list__link::after, .contacts__link::after, .contacts__item::after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FF8C00;
+  content: '';
+  transition: 1s ease-out;
+}
+.nav-list__link:hover::after, .contacts__link:hover::after, .contacts__link:focus::after, .nav-list__link:focus::after{
+  width: 100%;
+}
+.nav{
+  flex-grow: 1;
+  z-index: 10;
+  margin-left: auto;
+}
+.contacts{
+  list-style: none;
+  margin-top: 0;
+  z-index: 10;
+  margin-left: auto;
+}
+.contacts__link{
+  position: relative;
+  color: #000;
+  transition: color 1s;
+  transition-delay: .5s;
+}
+.contacts__link--phone{
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.contacts__link--callback{
+  font-size: 12px;
+}
+.slogan__img{
+  padding-top: 84px;
+  padding-bottom: 77px;
+}
+.slogan-container{
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 68px;
+  background: url(../img/Vector\ 5.png) no-repeat;
+  background-size: contain;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 58px;
+  height: 3.9rem;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.btn--choose-program{
+  background: #162223;
+  color: #fff;
+  max-width: 18.4rem;
+  padding: 12px 13px;
+}
+.icon-1{
+  background: #D1D94D;
+  font-size: 0.9rem;
+  color: #000;
+  padding: 8px 7px;
+  border-radius: 50%;
+}
+.btn__text{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.btn__text--choose-program{
+  margin: 0 0 0 12px;
+}
+.btn--choose-program:active{
+  animation: anchor 1s;
+}
+.slogan-decor img:hover, .product__decor img:hover:not(:nth-child(5)),
+.inst-decor__img:hover, .form-decor__img:hover{
+  transform: scale(1.2) rotate(2deg);
+  transition: 1s;
+}
+.slogan-decor__img--1:hover{
+  transform: scale(1.09) rotate(40deg);
+  transition: 5s;
+}
+.slogan-decor__img{
+  position: absolute;
+  transition: 1s;
+}
+.slogan-decor__img--1{
+  top: 3%;
+  right: 4%;
+}
+.slogan-decor__img--2{
+  bottom: -14%;
+  right: 0;
+}
+.slogan-decor__img--3{
+  bottom: -14%;
+  left: 48%;
+}
+.slogan-decor__img--4{
+  top: 22%;
+  left: 55%;
+}
+.slogan-decor__img--5{
+  bottom: 7%;
+  left: 1%;
+}
+.slogan-decor__img--6{
+  top: 10%;
+  right: 6%;
+}

@@ -1,0 +1,42 @@
+.footer-container{
+  background: #000;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.social{
+  font-size: 31px;
+  margin-left: auto;
+}
+.social__icon{
+  text-decoration: none;
+  color: #fff;
+
+}
+.contacts--white{
+  color: #fff;
+  margin-top: 0;
+  padding-left: 0;
+}
+.contacts__link--white{
+  color: #fff;
+  margin-top: 0;
+  padding-left: 0;
+}
+.contacts__item--size-s{
+  font-size: .9rem;
+  padding: 9px 0;
+}
+.contacts__link--size-xs{
+  font-size: 12px;
+}
+.footer-bottom{
+  color: #fff;
+  font-size: .8rem;
+}
+.footer-bottom__right{
+  margin-left: auto;
+}
+.footer-bottom__right-bold{
+  font-size: .9rem;
+  font-weight: 700;
+}
